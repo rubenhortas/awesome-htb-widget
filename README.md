@@ -1,5 +1,5 @@
 # awesome htb widget
-A simple widget to show the ips of your vpn interface and yout target machine while you are playing in [hack the box](https://app.hackthebox.com/)
+A simple widget to show the ips of your vpn interface and your target machine while you are playing in [hack the box](https://app.hackthebox.com/)
 
 ## Screenshots
 ![Screenshot target on](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_on_screenshot.jpg)
@@ -11,14 +11,13 @@ Clone the repo under your widgets folder:
   - If you are using a custom theme: ~/.config/awesome/widgets/
   - If you are using a default theme: /usr/share/awesome/lib/ (requires root privileges)
 
-Edit _awesome-htb-widget/ip.lua_ and set your interface name
+Edit **_awesome-htb-widget/ip.lua_** file and set your interface name
 
 ```lua
 local interface = "tun0" --Change enp0s3 for your interface name
 ```
 
-
-Edit your _lua.rc_ file and add the following
+Edit your **_lua.rc_** file and add the following
   - If you are using a custom theme: ~/.config/awesome/rc.lua
   - If you are using a default theme: /etc/xdg/awesome/lua.rc (requires root privileges)
 
@@ -35,7 +34,7 @@ s.mytasklist, -- Middle widget
 },
 ```
 
-Add the following alias in your shell (.bashrc, .zshrc, etc):
+Add the following [alias](https://github.com/rubenhortas/awesome-htb-widget/blob/main/target_function) in your shell (.bashrc, .zshrc, etc):
 
 ```bash
 function target() {
