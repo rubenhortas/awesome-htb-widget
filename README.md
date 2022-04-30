@@ -34,7 +34,7 @@ s.mytasklist, -- Middle widget
 },
 ```
 
-Add the following [alias](https://github.com/rubenhortas/awesome-htb-widget/blob/main/target_function) in your shell (.bashrc, .zshrc, etc):
+Add the following [alias](https://github.com/rubenhortas/awesome-htb-widget/blob/main/target_function) to your shell (.bashrc, .zshrc, etc):
 
 ```bash
 function target() {
