@@ -5,7 +5,7 @@ A simple widget to show the ips of your vpn interface and yout target machine wh
 ![Screenshot target on](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_on_screenshot.jpg)
 ![Screenshot target off](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_off_screenshot.jpg)
 
-## Installation
+## Installation and configuration
 
 Clone the repo under your widgets folder: 
   - If you are using a custom theme: ~/.config/awesome/widgets/
@@ -35,7 +35,36 @@ s.mytasklist, -- Middle widget
 },
 ```
 
+Add the following alias in your shell (.bashrc, .zshrc, etc):
+
+```bash
+function target() {
+    if [[ $# -eq 0 ]] then
+        rm -rf /tmp/target
+    else
+        echo $1 > /tmp/target
+    fi
+}
+```
+
+## Getting the _target_ alias working
+Log off and log in or read and execute your shell with the _source_ command to get the new alias working:
+
+```bash
+$ source ~/.bashrc # or .zshrc, etc
+```
+
 Restart awesome ;)
+
+## Setting and unsetting the target
+- Setting a target (execute _target_ passing as parameter the ip of the target machine)
+```bash
+$ target 10.11.12.13
+```
+- Unsetting a target (execute _target_ without paramters)
+```bash
+$ target
+```
 
 ## Troubleshooting
 
