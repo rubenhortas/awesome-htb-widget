@@ -18,7 +18,7 @@ local target_widget_fg_color = "#ffffff" -- White text
 local target_widget_bg_color = "#ff3e3e" -- Red background
 
 local host_ip = ""
-local target_ip = ""
+local target_ip = "off"
 
 local host_widget = wibox.widget {
 	{
