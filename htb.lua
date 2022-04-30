@@ -52,7 +52,7 @@ host_widget.widget.text = ""
 target_widget.widget.text = ""
 
 gears.timer {
-	timeout   = 1,
+	timeout   = 10,
 	call_now  = true,
 	autostart = true,
 	callback  = function()
