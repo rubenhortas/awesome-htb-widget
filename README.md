@@ -58,7 +58,7 @@ Restart awesome ;)
 ## Setting and unsetting the target
 - Setting a target (execute _target_ passing as parameter the ip of the target machine)
 ```bash
-$ target 10.11.12.13
+$ target 13.12.11.10
 ```
 - Unsetting a target (execute _target_ without paramters)
 ```bash
