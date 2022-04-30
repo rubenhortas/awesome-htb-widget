@@ -2,7 +2,8 @@
 A simple widget to show the ips of your vpn interface and yout target machine while you are playing in [hack the box](https://app.hackthebox.com/)
 
 ## Screenshots
-
+![Screenshot target on](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_on_screenshot.jpg)
+![Screenshot target off](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_off_screenshot.jpg)
 
 ## Installation
 
