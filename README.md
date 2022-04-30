@@ -22,7 +22,7 @@ Edit your **_lua.rc_** file and add the following
   - If you are using a default theme: /etc/xdg/awesome/lua.rc (requires root privileges)
 
 ```lua
-local htb_widget = require("awesome-htb-widget.ip")
+local htb_widget = require("widgets.awesome-htb-widget.htb")
 
 ...
 s.mytasklist, -- Middle widget
