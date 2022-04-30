@@ -1,0 +1,8 @@
+function target() {
+    if [[ $# -eq 0 ]] then
+        rm -rf /tmp/target
+    else
+        echo $1 > /tmp/target
+    fi
+}
+
