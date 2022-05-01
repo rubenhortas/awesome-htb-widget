@@ -14,7 +14,7 @@ Clone the repo under your widgets folder:
 Edit **_awesome-htb-widget/ip.lua_** file and set your interface name
 
 ```lua
-local interface = "tun0" --Change enp0s3 for your interface name
+local interface = "tun0" --Change tun0 for your interface name
 ```
 
 Edit your **_lua.rc_** file and add the following
