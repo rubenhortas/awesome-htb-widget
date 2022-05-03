@@ -4,15 +4,14 @@ local awful = require("awful")
 local gears = require("gears")
 local beautiful = require("beautiful")
 
--- Configure the interface
-local interface = "tun0"
+local interface = "tun0" -- Set the interface name here
 local target_ip_file = "/tmp/target"
 
 local get_host_ip_command = string.format("ip addr show %s | grep -oE '[[:digit:].]{2,3}[[:digit:].]{2,3}[[:digit:].]{2,3}[[:digit:]]{2,3}/' | cut -d'/' -f1", interface)
 local get_target_ip_command = "if [ -f /tmp/target ]; then cat /tmp/target; else echo \"\"; fi"
 
 -- Configure widgets appearance
-local widgets_font = beautiful.taglist_font
+local widgets_font = beautiful.font -- Set font size here (family, name size...)
 local host_widget_fg_color = "#000000" -- Black text
 local host_widget_bg_color = "#9fef00" -- Green background
 local target_widget_fg_color = "#ffffff" -- White text
