@@ -5,7 +5,7 @@ local gears = require("gears")
 local beautiful = require("beautiful")
 
 -- Configure the interface
-local interface = "enp0s3" --TODO: Change to tun0
+local interface = "tun0"
 local target_ip_file = "/tmp/target"
 
 local get_host_ip_command = string.format("ip addr show %s | grep -oE '[[:digit:].]{2,3}[[:digit:].]{2,3}[[:digit:].]{2,3}[[:digit:]]{2,3}/' | cut -d'/' -f1", interface)
