@@ -9,7 +9,7 @@ It's also good to see the IP of your VPN interface (and) if the interface is up.
 - With target off\
 ![Screenshot target off](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_off_screenshot.jpg)
 
-(If the interface is down the widget is not shown)
+(If the VPN interface is down the widget is not shown)
 
 ## Installation and configuration
 
