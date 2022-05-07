@@ -1,6 +1,7 @@
 # awesome htb widget
-A simple widget to show the IPs of your VPN interface and your target machine while you are playing in [hack the box](https://app.hackthebox.com/)\
-It's also good to see the IP of your VPN interface (and) if the interface is up. 
+A simple widget to show the IPs of your VPN interface and your target machine (if is set) while you are playing in [hack the box](https://app.hackthebox.com/)\
+
+It's also a good widget to see the IP of your VPN interface (and) if the interface is up. 
 
 ## Screenshots
 - With target on\
