@@ -11,7 +11,7 @@ local get_host_ip_command = string.format("ip addr show %s | grep -oE '[[:digit:
 local get_target_ip_command = "if [ -f /tmp/target ]; then cat /tmp/target; else echo \"\"; fi"
 
 -- Configure widgets appearance
-local widgets_font = beautiful.font -- Set the font here (family, name size...)
+local widgets_font = beautiful.font -- Set the font here (family, name size...) e.g.: "sans 12"
 local host_widget_fg_color = "#000000" -- Black text
 local host_widget_bg_color = "#9fef00" -- Green background
 local target_widget_fg_color = "#ffffff" -- White text
@@ -96,5 +96,5 @@ gears.timer {
 	end
 }
 
---Export the widget
+-- Export the widget
 return htb_widget
