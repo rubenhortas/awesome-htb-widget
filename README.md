@@ -64,13 +64,13 @@ Restart awesome ;)
 
 ## Setting and unsetting the target
 - Setting a target (execute _target_ passing as parameter the ip of the target machine)
-```bash
-$ target 13.12.11.10
-```
+	```bash
+	$ target 13.12.11.10
+	```
 - Unsetting a target (execute _target_ without paramters)
-```bash
-$ target
-```
+	```bash
+	$ target
+	```
 
 ## Troubleshooting
 
