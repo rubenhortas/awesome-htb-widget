@@ -76,6 +76,9 @@ Restart awesome ;)
 
 In case of any problem create an [issue](https://github.com/rubenhortas/awesome-htb-widget/issues/new)
 
+## Discussions
+If you want ask (or answer) a question, leave an opinion or have a open-ended conversation you can create (or join) a [discussion](https://github.com/rubenhortas/awesome-htb-widget/discussions/new)
+
 ## Support
 
 If you find this widget useful you can star this repo.
