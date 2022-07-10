@@ -13,6 +13,9 @@ It's also a good widget to see the IP of your VPN interface (and) if the interfa
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rubenhortas/awesome-htb-widget)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/rubenhortas/awesome-htb-widget)
 
+![GitHub](https://img.shields.io/github/license/rubenhortas/awesome-htb-widget)
+
+
 ## Screenshots
 - With target on  
 ![Screenshot target on](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_on_screenshot.jpg)
