@@ -3,6 +3,16 @@ A simple widget to show the IPs of your VPN interface and your target machine (i
 
 It's also a good widget to see the IP of your VPN interface (and) if the interface is up. 
 
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/rubenhortas/awesome-htb-widget)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rubenhortas/awesome-htb-widget)
+![GitHub repo size](https://img.shields.io/github/repo-size/rubenhortas/awesome-htb-widget)
+
+![GitHub issues](https://img.shields.io/github/issues-raw/rubenhortas/awesome-htb-widget)
+![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/rubenhortas/awesome-htb-widget)
+
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rubenhortas/awesome-htb-widget)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/rubenhortas/awesome-htb-widget)
+
 ## Screenshots
 - With target on  
 ![Screenshot target on](https://github.com/rubenhortas/awesome-htb-widget/blob/main/screenshots/target_on_screenshot.jpg)
