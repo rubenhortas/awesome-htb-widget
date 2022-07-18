@@ -9,7 +9,6 @@ It's also a good widget to see the IP of your VPN interface (and) if the interfa
 
 ![GitHub issues](https://img.shields.io/github/issues-raw/rubenhortas/awesome-htb-widget?color=red&logo=github)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/rubenhortas/awesome-htb-widget?logo=github)
-
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/rubenhortas/awesome-htb-widget?color=red&logo=github)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/rubenhortas/awesome-htb-widget?logo=github)
 
