@@ -1,5 +1,5 @@
 # awesome htb widget
-A simple widget to show the IPs of your VPN interface and your target machine (if is set) in the awesome window manager wibar while you are playing in [hack the box (hackthebox.com)](https://app.hackthebox.com/).  
+A simple widget to show the IPs of your VPN interface and your target machine (if is set) in the awesomewm window manager wibar while you are playing in [hack the box (hackthebox.com)](https://app.hackthebox.com/).  
 
 It's also a good widget to see the IP of your VPN interface (and) if the interface is up. 
 
