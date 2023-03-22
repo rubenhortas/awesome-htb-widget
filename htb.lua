@@ -7,7 +7,7 @@ local beautiful = require("beautiful")
 local interface = "tun0" -- Set the interface name here
 local target_ip_file = "/tmp/target"
 
-local get_host_ip_command = string.format("ip addr show %s | grep -oE '[[:digit:].]{2,3}[[:digit:].]{2,3}[[:digit:].]{2,3}[[:digit:]]{2,3}/' | cut -d'/' -f1", interface)
+local get_host_ip_command = string.format("ip addr show %s | grep -oE '([[:digit:]]{1,3}\.){3}[[:digit:]]{1,3}/' | cut -d'/' -f1", interface)
 local get_target_ip_command = "if [ -f /tmp/target ]; then cat /tmp/target; else echo \"\"; fi"
 
 -- Configure widgets appearance
