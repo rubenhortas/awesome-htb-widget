@@ -94,4 +94,4 @@ If you want ask (or answer) a question, leave an opinion or have a open-ended co
 
 ## :star: Support
 
-If you find this widget useful you can star this repo.
+If you find this widget useful, please, consider starring this repository!
